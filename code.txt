@@ -83,16 +83,6 @@ _______________________________________
 =======================================
 
 // p3
-
-  table: order_details, fileds: id, order_id, product_id, quantity
-1. table: orders, fileds: id, customer_id, employee_id, date, shipper_id
-2. table: customers, fileds: id, name, contact, address, city, postal_code, country
-3. table: products, fileds: id, name, supplier_id, category_id, unit, price
-4. table: categories, fileds: id, name, description
-5. table: employees, fileds: employee_id, last_name, first_name, birthdate, photo, notes
-6. table: shippers, fileds: id, name, phone
-7. table: suppliers, fileds: id, name, contact, address, city, postal_code, country, phone
-
 SELECT 
   order_details.id AS order_detail_id,
     order_details.quantity,
